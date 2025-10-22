@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my portfolio</title>
+  <link rel="icon" href="images/logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>amina</h1>
+    <div class="menu" id="menu">
+      <nav>
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#study"class="nav-link">Study</a></li>
+          <li><a href="#contact"class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn">Get in touch</a>
+        <button class="theme-toggle" id="themeToggle">
+          <svg class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path
+              d="M12 16a4 4 0 100-8 4 4 0 000 8zM12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"
+              stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span id="themeText">Dark</span>
+        </div>
+          <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="menu" aria-label="Открыть меню">
+            <span class="hamburger-bars" aria-hidden="true">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </span>
+          </button>
+      </nav>
+    </header>
+    
+
+ <section id="welcome">
+  <div class="welcome-container">
+    <p id="greeting">Welcome!!!</p>
+    <button id="askName">Your name?</button>
+  </div>
+</section>
+  <main>
+    <section id="about">
+      <div class="containers">
+        <h1>About Me</h1>
+        <p>Hello! My name is <span class="highlight">Amina</span>. I'm 17 years old. I'm studying at the IT & Business
+          College at Alf Too University, majoring in IT and IT systems. I'm currently studying front-end and back-end
+          development. I previously studied Java and am still learning it.</p>
+        <a href="#works" class="btn">Veiw my work</a>
+        <a href="#contact" class="btn1">Get in touch</a>
+      </div>
+      <img src="imageportfolio.jpg" alt="image">
+    </section>
+
+    <section id="study">
+      <h2>Using now:</h2>
+      <div class="images">
+        <figure>
+          <img src="html-svgrepo-com.svg" alt="html">
+          <figcaption>HTML</figcaption>
+        </figure>
+        <figure>
+          <img src="css-3-svgrepo-com.svg" alt="css">
+          <figcaption>CSS</figcaption>
+        </figure>
+        <figure>
+          <img src="react-svgrepo-com.svg" alt="react">
+          <figcaption>REACT</figcaption>
+        </figure>
+        <figure>
+          <img src="figma-svgrepo-com.svg" alt="figma">
+          <figcaption>FIGMA</figcaption>
+        </figure>
+      </div>
+      <h2>Learning:</h2>
+      <div class="images">
+        <figure>
+          <img src="javascript-svgrepo-com.svg" alt="js">
+          <figcaption>JS</figcaption>
+        </figure>
+        <figure>
+          <img src="java-svgrepo-com.svg" alt="java">
+          <figcaption>JAVA</figcaption>
+        </figure>
+        <figure>
+          <img src="python-svgrepo-com.svg" alt="python">
+          <figcaption>PYTHON</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="works">
+      <h2>Check out some of my first programs</h2>
+      <div class="container">
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="card-header">
+              <h2 class="project-title"> Profit Сalculation</h2>
+              <p class="project-description">This is simple mini program on Java and Javafx for calculating profits and
+                creating a chart based on the entered data.</p>
+            </div>
+            <div class="tech-stack">
+              <div class="tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Javafx</span>
+                <span class="tech-tag">intellidJ</span>
+              </div>
+            </div>
+            <div class="card-actions">
+              <a href="https://github.com/amina4444/week1-5.04.25" target="_blank" class="btn btn-code">Code</a>
+              <a href="https://github.com/amina4444/week1-5.04.25" target="_blank" class="btn btn-demo">Veiw</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="card-header">
+              <h2 class="project-title">Simple photo editor</h2>
+              <p class="project-description">This is a simple program in Java and JavaFX for editing uploaded photos.
+              </p>
+            </div>
+            <div class="tech-stack">
+              <div class="tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Javafx</span>
+                <span class="tech-tag">intellidJ</span>
+              </div>
+            </div>
+            <div class="card-actions">
+              <a href="https://github.com/amina4444/week2-12.04.25" target="_blank" class="btn btn-code">Code</a>
+              <a href="https://github.com/amina4444/week2-12.04.25" target="_blank" class="btn btn-demo">Veiw</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="card-header">
+              <h2 class="project-title">Music player</h2>
+              <p class="project-description">This is a simple program in Java and JavaFX that simulates a regular player
+                onto which you can download music and listen to it.</p>
+            </div>
+            <div class="tech-stack">
+              <div class="tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Javafx</span>
+                <span class="tech-tag">intellidJ</span>
+              </div>
+            </div>
+            <div class="card-actions">
+              <a href="https://github.com/amina4444/week3-26.04.25" target="_blank" class="btn btn-code">Code</a>
+              <a href="https://github.com/amina4444/week3-26.04.25" target="_blank" class="btn btn-demo">View</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="contact">
+      <h1>Get in touch</h1>
+      <div class="getintouch">
+        <form action="#" method="POST">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" placeholder="Name" required>
+
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" placeholder="Lastname" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="email@gmail.com">
+          <textarea placeholder="Your message..."></textarea>
+          <input type="submit" value="Send a message">
+        </form>
+
+        <div class="contact-info">
+          <h2>Contact to Me</h2>
+          <a href="mailto:aminaismailova869@gmail.com" target="_blank">
+            <p>📧 amina@gmail.com</p>
+          </a>
+          <p>📞 +1 (555) 123-4567</p>
+          <p>📍 bishkek.kg</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <button id="scrollTopBtn" class="scroll-top" title="Наверх" aria-label="Наверх">↑</button>
+
+  <footer>
+    <a href="#" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">BACK TO TOP</a>
+
+    <div class="socials">
+      <a href="https://wa.me/553664450" target="_blank" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i></a>
+      <a href="t.me/aminaajieielhfdhjs" target="_blank" aria-label="Telegram">
+        <i class="fa-brands fa-telegram"></i></a>
+      <a href="https://github.com/amina4444" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i></a>
+    </div>
+    <p>&copy;2025 My first website.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
